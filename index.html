@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aureon - Enterprise AI Operating System</title>
+    <meta name="description" content="Aureon is an enterprise AI operating system for business intelligence. Transform your data into actionable insights with cutting-edge AI technology.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1 class="brand-logo">AUREON</h1>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Enterprise AI</span>
+                    <span class="hero-title-line">Operating System</span>
+                </h1>
+                <p class="hero-subtitle">Transform your data into actionable insights with cutting-edge AI technology designed for enterprise-scale operations.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large" aria-describedby="cta-description">
+                        Start Your Journey
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <p id="cta-description" class="hero-cta-description">Schedule a demo with our enterprise team</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="product-render" aria-hidden="true">
+                    <div class="render-container">
+                        <div class="render-element render-element-1"></div>
+                        <div class="render-element render-element-2"></div>
+                        <div class="render-element render-element-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Enterprise-Grade Intelligence</h2>
+                <p class="section-subtitle">Built for scale, designed for precision</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Advanced AI Engine</h3>
+                    <p class="feature-description">Machine learning algorithms that adapt and evolve with your business needs, delivering insights at unprecedented speed.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Enterprise Security</h3>
+                    <p class="feature-description">Military-grade encryption and compliance with SOC 2, GDPR, and industry-specific regulations.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Real-time Analytics</h3>
+                    <p class="feature-description">Process millions of data points in real-time with our distributed computing architecture.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Seamless Integration</h3>
+                    <p class="feature-description">Connect with 500+ enterprise tools and APIs through our unified integration platform.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Collaborative Intelligence</h3>
+                    <p class="feature-description">Share insights across teams with role-based access and collaborative workspaces.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">Scalable Infrastructure</h3>
+                    <p class="feature-description">Auto-scaling cloud infrastructure that grows with your business without performance degradation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Industry Leaders</h2>
+                <p class="section-subtitle">See how enterprises are transforming with Aureon</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Aureon has revolutionized our data analytics capabilities. We've seen a 300% improvement in insight generation speed."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Chen</h4>
+                            <p class="author-title">CTO, TechCorp Industries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"The security and compliance features give us confidence to handle sensitive enterprise data at scale."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Marcus Rodriguez</h4>
+                            <p class="author-title">Head of Data Science, Global Finance Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Integration was seamless. We connected 50+ systems in under a week, something that would have taken months before."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Emily Watson</h4>
+                            <p class="author-title">VP of Engineering, InnovateLabs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Enterprise Pricing</h2>
+                <p class="section-subtitle">Tailored solutions for every scale</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Professional</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">$2,500</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul class="features-list">
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Up to 100,000 data points
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Standard integrations
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Email support
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Basic analytics
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline btn-large pricing-btn">Get Started</button>
+                </div>
+                <div class="pricing-card pricing-card-featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">$8,500</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul class="features-list">
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Unlimited data points
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                All integrations
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Priority support
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Advanced AI features
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Custom deployment
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary btn-large pricing-btn">Contact Sales</button>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Custom</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">Custom</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul class="features-list">
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Tailored solution
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                Dedicated support
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                On-premise option
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                                SLA guarantee
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline btn-large pricing-btn">Schedule Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="cta-container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Enterprise?</h2>
+                <p class="cta-subtitle">Join thousands of enterprises already using Aureon to unlock the power of their data.</p>
+                <div class="cta-actions">
+                    <button class="btn btn-primary btn-large">
+                        Schedule Demo
+                        <i class="fas fa-calendar-alt"></i>
+                    </button>
+                    <button class="btn btn-outline btn-large">
+                        Download Whitepaper
+                        <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">AUREON</h3>
+                    <p class="footer-description">Enterprise AI Operating System for Business Intelligence</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Product</h4>
+                        <ul class="footer-list">
+                            <li><a href="#features" class="footer-link">Features</a></li>
+                            <li><a href="#pricing" class="footer-link">Pricing</a></li>
+                            <li><a href="#" class="footer-link">Security</a></li>
+                            <li><a href="#" class="footer-link">Integrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Company</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Press</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Resources</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Documentation</a></li>
+                            <li><a href="#" class="footer-link">API Reference</a></li>
+                            <li><a href="#" class="footer-link">Support</a></li>
+                            <li><a href="#" class="footer-link">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 Aureon. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
