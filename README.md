@@ -4,11 +4,6 @@ A production-level, award-winning **enterprise landing page** built with **HTML,
 
 ---
 
-## 📋 Project Overview
-This project delivers a polished, enterprise-grade landing page with advanced UI/UX patterns, responsive layouts, and performance-focused engineering. With smooth animations, dramatic typography, and a system-first approach, the design communicates both innovation and trust. Accessibility and responsiveness were prioritized to ensure usability across all platforms.
-
----
-
 ## ✨ Features
 
 ### Core Functionality
