@@ -1,6 +1,6 @@
 # 🌌 Aureon - Enterprise AI Operating System (Task 5 – Elevvo Pathways Web Development Internship Program)
 
-A production-level, award-winning **enterprise landing page** built with **HTML, CSS, and JavaScript**. It features a cinematic design inspired by Apple’s product pages and Tesla’s minimal aesthetic, tailored for high-end SaaS and enterprise tools.
+A modern and responsive enterprise landing page built using HTML, CSS, and JavaScript.
 
 ---
 
